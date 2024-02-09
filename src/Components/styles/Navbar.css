@@ -1,0 +1,126 @@
+.nav-cont {
+  cursor: default;
+  background: linear-gradient(
+    180deg,
+    rgba(9, 12, 9, 0.64) 0%,
+    rgba(9, 12, 9, 0) 83.5%
+  );
+  display: flex;
+  width: 100%;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  text-transform: none;
+  color:currentColor
+}
+.nav-links-cont {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.nav-links-cont span {
+  cursor: pointer;
+}
+.nav-cont > img {
+  z-index: 1;
+  cursor: pointer;
+  pointer-events: visible;
+}
+.nav-cta {
+  cursor: pointer;
+  border-radius: 100px;
+  background: linear-gradient(94deg, #49d043 1.59%, #ffb912 78.37%);
+  box-shadow: 2px 4px 0px 0px #2b362b;
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  color: #0d110d;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  position: relative;
+  overflow: hidden;
+  transition: all 2s;
+}
+
+.nav-cta::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.25);
+  /* mix-blend-mode: plus-lighter; */
+  /* filter: blur(15px);   */
+  width: 30px;
+  height: 100%;
+  top: 0%;
+  left: -115%;
+  transform: skew(-45deg);
+  position: absolute;
+  transition: all 1s;
+}
+.nav-cta:hover{
+  transform: scale(1.1);
+}
+.nav-cta:hover::before {
+  left: 135%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .nav-cont {
+    background: linear-gradient(
+      180deg,
+      rgba(9, 12, 9, 0.64) 0%,
+      rgba(9, 12, 9, 0) 83.5%
+    );
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links-cont {
+    display: none;
+  }
+  .nav-cta {
+    color: #0d110d;
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 100px;
+    background: linear-gradient(94deg, #49d043 1.59%, #ffb912 78.37%);
+    box-shadow: 1px 2px 0px 0px #2b362b;
+    display: flex;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-cont > img {
+    width: 64px;
+    height: 39px;
+    flex-shrink: 0;
+  }
+}

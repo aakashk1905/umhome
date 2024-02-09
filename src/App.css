@@ -1,7 +1,21 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-color: #090c09;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  pointer-events: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,12 +41,11 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes glare {
+  0% {
+    left: -135%;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    left: 130%;
   }
 }

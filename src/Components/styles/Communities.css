@@ -1,0 +1,445 @@
+.com-cont {
+  cursor: default;
+  display: flex;
+  padding: 100px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.com-head-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.com-head {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+.com-text {
+  transform: rotate(0.064deg);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+}
+.com-cards-cont {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  width: 80%;
+}
+.com-card {
+  cursor: default;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #0e110e;
+
+  display: flex;
+  width: 50%;
+  max-width: 578px;
+  min-height: 461px;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  position: relative;
+}
+
+.com-card-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.com-card-upper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  align-self: stretch;
+  z-index: 1;
+}
+
+.com-card-upper li {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.com-cta {
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #3466c8 0%, #1050d0 100%);
+  box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.05);
+  display: flex;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #fff;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+.com-web {
+  position: absolute;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.07); */
+  font-family: Montserrat;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.88px;
+  top: calc(50% - 38px);
+  display: flex;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  text-wrap: nowrap;
+  color: #ffffff09;
+}
+
+.comcodecard {
+  max-width: 284px;
+  max-height: 284px;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.com-svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .com-cont {
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .com-head-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .com-head {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: -0.84px;
+  }
+  .com-text {
+    transform: rotate(0.064deg);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.28px;
+    width: 90%;
+  }
+  .com-cards-cont {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    width: 95%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .com-card {
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #0e110e;
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 578px;
+    min-height: 461px;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .com-card-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+
+  .com-card-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+  }
+
+  .com-card-upper li {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    letter-spacing: -0.28px;
+  }
+
+  .com-cta {
+    z-index: 111;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.05);
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  .com-web {
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.07);
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.88px;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    text-wrap: nowrap;
+  }
+
+  .comcodecard {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+  }
+
+  .com-svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .com-cont {
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .com-head-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .com-head {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: -0.84px;
+  }
+  .com-text {
+    transform: rotate(0.064deg);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.28px;
+    width: 90%;
+  }
+  .com-cards-cont {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    width: 95%;
+    flex-direction: column;
+  }
+  .com-card {
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #0e110e;
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 578px;
+    min-height: 461px;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .com-card-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+
+  .com-card-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+  }
+
+  .com-card-upper li {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    letter-spacing: -0.28px;
+  }
+
+  .com-cta {
+    z-index: 111;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.05);
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+  .com-web {
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.07);
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.88px;
+    top: 70%;
+    display: flex;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    text-wrap: nowrap;
+  }
+
+  .comcodecard {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+  }
+
+  .com-svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

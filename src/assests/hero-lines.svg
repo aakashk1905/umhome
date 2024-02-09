@@ -1,0 +1,29 @@
+<svg width="748" height="748" viewBox="0 0 748 748" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_73_1311" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="748" height="748">
+<circle cx="374" cy="374" r="374" fill="url(#paint0_radial_73_1311)"/>
+</mask>
+<g mask="url(#mask0_73_1311)">
+<rect x="29.6836" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="126.721" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="223.759" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="320.796" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="417.834" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="514.872" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="611.909" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="708.947" y="-3" width="2.36677" height="755" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="715.315" width="2.36677" height="755" transform="rotate(-90 -7 715.315)" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="618.277" width="2.36677" height="755" transform="rotate(-90 -7 618.277)" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="521.24" width="2.36677" height="755" transform="rotate(-90 -7 521.24)" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="424.202" width="2.36677" height="755" transform="rotate(-90 -7 424.202)" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="327.165" width="2.36677" height="755" transform="rotate(-90 -7 327.165)" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="230.127" width="2.36677" height="755" transform="rotate(-90 -7 230.127)" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="133.089" width="2.36677" height="755" transform="rotate(-90 -7 133.089)" fill="white" fill-opacity="0.05"/>
+<rect x="-7" y="36.0518" width="2.36677" height="755" transform="rotate(-90 -7 36.0518)" fill="white" fill-opacity="0.05"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_73_1311" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(374 374) rotate(90) scale(333.5)">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
