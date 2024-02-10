@@ -21,18 +21,18 @@ const Stories = () => {
       <div className="story-card-line"></div>
       <div className="story-card-btm">
         <div className="story-name">Sourabh Porwal,</div>
-        <div className="story-post">UI UX Designer, Bankly</div>
+        <div className="story-post">Backend Developer </div>
       </div>
     </div>,
     <div className="story-card">
       <div className="story-card-head">
-        The mentorship program at Upskill Mafia was invaluable in shaping my
-        design career, highly recommended!
+        Upskill Mafia helped me boost my Web development skills and connect with
+        talented Developers across India.
       </div>
       <div className="story-card-line"></div>
       <div className="story-card-btm">
         <div className="story-name">Isha Sharma ,</div>
-        <div className="story-post">UI UX Designer</div>
+        <div className="story-post">Full Stack Developer (MERN)</div>
       </div>
     </div>,
     <div className="story-card">
@@ -42,7 +42,7 @@ const Stories = () => {
       </div>
       <div className="story-card-line"></div>
       <div className="story-card-btm">
-        <div className="story-name">Jayash Thapa ,</div>
+        <div className="story-name">Jayash Thapa,</div>
         <div className="story-post">UI UX Designer</div>
       </div>
     </div>,
