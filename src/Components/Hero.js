@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/Hero.css";
 import Navbar from "./Navbar";
-
 import heroavs from "../assests/heroavs.svg";
 import herolines from "../assests/hero-lines.svg";
 import heroright from "../assests/hero-right.png";
@@ -21,7 +20,7 @@ const Hero = () => {
         <div className="hero-left">
           <div className="hero-left-top">
             <div>
-              <div className="hero-head">
+              <div className="hero-head text-target">
                 Develop Your Skills in a
                 <svg
                   className="hero-head-abs"
@@ -73,7 +72,7 @@ const Hero = () => {
             </div>
           </div>
           <a href="#choose">
-            <div className="hero-cta">Join now for Free!</div>
+            <div className="hero-cta magnet">Join now for Free!</div>
           </a>
         </div>
         <div className="hero-right">

@@ -129,9 +129,9 @@
   transition: all 2s;
 }
 
-.hero-cta:hover {
+/* .hero-cta:hover {
   transform: scale(1.1);
-}
+} */
 
 .hero-head-abs {
   position: absolute;
