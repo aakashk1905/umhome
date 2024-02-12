@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./styles/Hero.css";
 import Navbar from "./Navbar";
 import heroavs from "../assests/heroavs.svg";
@@ -9,8 +9,36 @@ import hero1 from "../assests/hero1.png";
 import hero2 from "../assests/hero2.png";
 import hero3 from "../assests/hero3.png";
 import hero4 from "../assests/hero4.png";
+// import Shery from "sheryjs";
 
 const Hero = () => {
+  // useEffect(() => {
+  //   Shery.mouseFollower();
+
+  //   Shery.makeMagnet(".magnet" /* Element to target.*/, {
+  //     //Parameters are optional.
+  //     debug: true,
+  //     ease: "cubic-bezier(5, 1, 0.320, 1)",
+  //     duration: 1,
+  //   });
+
+  //   Shery.textAnimate(".text-target", {
+  //     style: 1,
+  //     y: 10,
+  //     delay: 0.05,
+  //     duration: 1,
+  //     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  //     multiplier: 0.1,
+  //   });
+  //   Shery.textAnimate(".text-target1", {
+  //     style: 2,
+  //     y: 10,
+  //     delay: 0.1,
+  //     duration: 1,
+  //     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  //     multiplier: 0.1,
+  //   });
+  // }, []);
   return (
     <div className="hero-cont" id="hero">
       <Navbar />
@@ -56,10 +84,10 @@ const Hero = () => {
                   />
                 </svg>
               </div>
-              <div className="hero-head hero-head-col">
+              <div className="hero-head hero-head-col ">
                 Virtual Learning Hub
               </div>
-              <div className="hero-head">with Upskill Mafia!</div>
+              <div className="hero-head text-target">with Upskill Mafia!</div>
             </div>
             <div className="hero-text">
               Step into India's First Virtual Campus! A place to Connect,
